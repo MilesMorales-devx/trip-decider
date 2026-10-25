@@ -36,7 +36,7 @@
     {
       "label": "Trip Decider: Frontend",
       "type": "shell",
-      "command": "npm install && npm run dev -- --host 127.0.0.1 --port 5173",
+      "command": "npm install --cache ../work/npm-cache && npm run dev -- --host 127.0.0.1 --port 5173",
       "options": {
         "cwd": "${workspaceFolder}/frontend",
         "env": {
