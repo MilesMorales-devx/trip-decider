@@ -97,9 +97,9 @@ Open `http://localhost:5173`. The API defaults to `http://localhost:8000`; set `
 
 ## Run from VS Code
 
-Open `Trip Decider.code-workspace` in VS Code. The project includes VS Code tasks for starting both app servers together, training the model, and running backend tests. Choose **Terminal → Run Task → Trip Decider: Run App**, then open `http://localhost:5173`. To stop the servers, terminate the two Trip Decider task terminals.
+Open `Trip Decider.code-workspace` in VS Code. Choose **Terminal → Run Task → Trip Decider: Run App**, then open `http://localhost:5173`. The VS Code backend uses port `8001` to avoid colliding with another local backend already using `8000`; the frontend task is configured to use that port. The backend task creates `.venv` and installs backend dependencies on its first run; the frontend task installs npm packages before starting Vite. You do not need to set up either environment manually first. To run only the API, choose **Trip Decider: Backend**. To stop the servers, terminate the two Trip Decider task terminals.
 
-The workspace file points VS Code to `.venv/bin/python`; create the virtual environment and install backend/frontend dependencies first using the setup steps above.
+The **Trip Decider: Train Model** and **Trip Decider: Backend Tests** tasks also bootstrap the Python environment when needed. The workspace file selects `.venv/bin/python` for editor features after the first backend task creates it.
 
 ## Testing
 From the project root with backend dependencies installed:
