@@ -1,0 +1,92 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Trip Decider: Backend",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/uvicorn",
+      "args": ["app.main:app", "--app-dir", "backend", "--reload", "--host", "127.0.0.1", "--port", "8000"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "trip-decider-backend",
+        "pattern": { "regexp": ".*" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*",
+          "endsPattern": "Uvicorn running on"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": false
+      }
+    },
+    {
+      "label": "Trip Decider: Frontend",
+      "type": "process",
+      "command": "npm",
+      "args": ["run", "dev", "--", "--host", "127.0.0.1", "--port", "5173"],
+      "options": {
+        "cwd": "${workspaceFolder}/frontend"
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "trip-decider-frontend",
+        "pattern": { "regexp": ".*" },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*",
+          "endsPattern": "Local:.*5173"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": false
+      }
+    },
+    {
+      "label": "Trip Decider: Run App",
+      "dependsOn": [
+        "Trip Decider: Backend",
+        "Trip Decider: Frontend"
+      ],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
+    },
+    {
+      "label": "Trip Decider: Train Model",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["scripts/train_model.py"],
+      "options": {
+        "cwd": "${workspaceFolder}/backend"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": false
+      }
+    },
+    {
+      "label": "Trip Decider: Backend Tests",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/pytest",
+      "args": ["backend/tests", "-q"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+name,state,region,types,climate,activities,min_cost,max_cost,min_days,max_days,best_months,crowd,latitude,longitude,description
+Manali,Himachal Pradesh,North,mountains|adventure|nature,cool,trekking|sightseeing|photography|camping,7000,18000,3,7,3|4|5|9|10,4,32.24,77.19,Himalayan valleys and mountain adventures
+Shimla,Himachal Pradesh,North,mountains|historical|relaxation,cool,sightseeing|photography|shopping,6000,16000,2,5,3|4|5|9|10,5,31.10,77.17,Colonial streets and Himalayan views
+Dharamshala,Himachal Pradesh,North,mountains|spiritual|nature,cool,trekking|sightseeing|photography|relaxation,6000,15000,3,6,3|4|5|9|10,3,32.22,76.32,Monasteries and Dhauladhar mountain scenery
+Kasol,Himachal Pradesh,North,mountains|adventure|nature,cool,trekking|camping|photography,5000,13000,2,5,3|4|5|9|10,3,32.01,77.32,Parvati Valley village and riverside trails
+Spiti Valley,Himachal Pradesh,North,mountains|adventure|historical,cool,trekking|camping|photography|sightseeing,14000,35000,6,10,6|7|8|9,2,32.25,78.02,High altitude desert monasteries and rugged roads
+Leh,Ladakh,North,mountains|adventure|spiritual,cool,trekking|camping|photography|sightseeing,18000,45000,6,10,6|7|8|9,3,34.15,77.58,High altitude landscapes and Buddhist heritage
+Srinagar,Jammu and Kashmir,North,mountains|nature|relaxation,pleasant,photography|sightseeing|food|relaxation,12000,30000,4,7,4|5|6|9|10,4,34.08,74.80,Lakes gardens and houseboat stays
+Gulmarg,Jammu and Kashmir,North,mountains|adventure,cool,skiing|trekking|photography,12000,30000,3,6,1|2|3|6|7|8,3,34.05,74.38,Alpine meadows and winter sports
+Amritsar,Punjab,North,historical|spiritual|city,warm,sightseeing|food|historical|shopping,5000,14000,2,4,10|11|12|1|2|3,5,31.63,74.87,Golden Temple and vibrant Punjabi food
+Jaipur,Rajasthan,North,historical|city|culture,warm,sightseeing|photography|food|shopping|historical,7000,18000,2,5,10|11|12|1|2|3,5,26.91,75.79,Forts palaces and colorful bazaars
+Udaipur,Rajasthan,North,historical|relaxation|city,pleasant,sightseeing|photography|food|shopping,8000,22000,2,5,9|10|11|12|1|2|3,4,24.58,73.68,Lake palaces and historic old city
+Jaisalmer,Rajasthan,North,historical|adventure|culture,warm,camping|photography|sightseeing|food,9000,24000,2,5,10|11|12|1|2|3,4,26.92,70.91,Desert fort and dune camp experiences
+Rishikesh,Uttarakhand,North,adventure|spiritual|nature,pleasant,rafting|trekking|yoga|photography,5000,15000,2,5,2|3|4|9|10|11,4,30.09,78.27,Ganges river rafting yoga and foothill trails
+Nainital,Uttarakhand,North,mountains|relaxation,pleasant,boating|sightseeing|photography|shopping,6000,16000,2,5,3|4|5|9|10,5,29.38,79.46,Lake town surrounded by Kumaon hills
+Auli,Uttarakhand,North,mountains|adventure,cool,skiing|trekking|photography,10000,26000,3,6,1|2|3|12,2,30.53,79.57,Ski slopes and Himalayan panoramas
+Valley of Flowers,Uttarakhand,North,nature|adventure,cool,trekking|photography|wildlife,10000,24000,4,7,7|8|9,2,30.73,79.61,Seasonal alpine flower meadows
+Varanasi,Uttar Pradesh,North,spiritual|historical|culture,warm,sightseeing|food|historical|photography,5000,14000,2,4,10|11|12|1|2|3,5,25.32,83.01,Ghats temples and centuries of living culture
+Agra,Uttar Pradesh,North,historical|culture,warm,sightseeing|photography|historical|food,4000,12000,1,3,10|11|12|1|2|3,5,27.18,78.01,Taj Mahal and Mughal architecture
+Delhi,Delhi,North,historical|city|culture,warm,sightseeing|food|shopping|historical,5000,16000,2,5,10|11|12|1|2|3,5,28.61,77.21,Monuments museums markets and diverse cuisine
+Ranthambore,Rajasthan,North,nature|wildlife|adventure,warm,wildlife|photography|sightseeing,9000,25000,2,4,10|11|12|1|2|3|4,3,26.02,76.50,Tiger reserve safaris and historic fort
+Goa,Goa,West,beaches|relaxation|city,tropical,water activities|food|shopping|nightlife|photography,10000,30000,3,7,11|12|1|2|3,5,15.30,74.12,Beach culture Portuguese heritage and coastal cuisine
+Mumbai,Maharashtra,West,city|culture|food,warm,sightseeing|food|shopping|historical,8000,22000,2,5,11|12|1|2|3,5,19.08,72.88,Coastal metropolis with art food and landmarks
+Pune,Maharashtra,West,city|historical|nature,pleasant,sightseeing|food|trekking|historical,6000,16000,2,4,10|11|12|1|2|3,4,18.52,73.86,Deccan culture and nearby hill forts
+Mahabaleshwar,Maharashtra,West,mountains|nature|relaxation,pleasant,sightseeing|photography|trekking,7000,18000,2,4,10|11|12|1|2|3|4,4,17.92,73.66,Strawberry farms and Western Ghats viewpoints
+Ajanta Caves,Maharashtra,West,historical|culture,warm,sightseeing|historical|photography,6000,16000,2,3,11|12|1|2|3,3,20.55,75.70,Ancient Buddhist cave paintings and sculpture
+Ellora Caves,Maharashtra,West,historical|culture,warm,sightseeing|historical|photography,6000,16000,2,3,11|12|1|2|3,3,20.03,75.18,Rock cut temples and monumental architecture
+Kutch,Gujarat,West,nature|culture|historical,warm,photography|sightseeing|shopping|food,8000,22000,3,6,11|12|1|2,3,23.73,69.86,White salt desert and artisan traditions
+Gir National Park,Gujarat,West,wildlife|nature,warm,wildlife|photography|sightseeing,9000,24000,2,4,12|1|2|3|4,2,21.12,70.79,Asiatic lion habitat and dry forest safaris
+Diu,Dadra and Nagar Haveli and Daman and Diu,West,beaches|historical|relaxation,tropical,water activities|sightseeing|photography|relaxation,7000,18000,2,4,10|11|12|1|2|3,3,20.71,70.99,Quiet beaches and Portuguese-era fort
+Ahmedabad,Gujarat,West,city|historical|culture,warm,food|shopping|sightseeing|historical,5000,14000,2,4,11|12|1|2|3,4,23.02,72.57,Heritage architecture and celebrated street food
+Kolkata,West Bengal,East,city|historical|culture,pleasant,food|sightseeing|shopping|historical,6000,17000,2,5,10|11|12|1|2|3,5,22.57,88.36,Colonial architecture art and Bengali cuisine
+Darjeeling,West Bengal,East,mountains|nature|culture,pleasant,photography|sightseeing|trekking|food,7000,18000,3,6,3|4|5|9|10|11,4,27.04,88.26,Tea gardens toy train and Kanchenjunga views
+Sundarbans,West Bengal,East,nature|wildlife|adventure,tropical,wildlife|boating|photography,9000,22000,3,5,11|12|1|2|3,2,21.95,88.90,Mangrove waterways and wildlife habitat
+Puri,Odisha,East,beaches|spiritual|culture,tropical,sightseeing|food|water activities|historical,5000,14000,2,4,11|12|1|2|3,5,19.81,85.83,Jagannath Temple and Bay of Bengal coastline
+Konark,Odisha,East,historical|culture|beaches,warm,sightseeing|historical|photography,5000,13000,1,3,11|12|1|2|3,3,19.89,86.09,Sun Temple and coastal heritage
+Kaziranga,Assam,East,wildlife|nature|adventure,pleasant,wildlife|photography|sightseeing,10000,26000,3,5,11|12|1|2|3,2,26.58,93.17,Grassland safaris and one-horned rhinoceros habitat
+Shillong,Meghalaya,East,nature|mountains|culture,pleasant,photography|sightseeing|trekking|food,7000,18000,3,6,3|4|5|10|11,3,25.58,91.89,Waterfalls living root bridges and Khasi culture
+Cherrapunji,Meghalaya,East,nature|adventure|mountains,pleasant,trekking|photography|sightseeing|camping,8000,20000,3,6,10|11|12|1|2|3,3,25.27,91.73,Clifftop scenery caves and waterfalls
+Gangtok,Sikkim,East,mountains|culture|nature,pleasant,sightseeing|photography|food|trekking,8000,22000,3,6,3|4|5|10|11,4,27.33,88.61,Monasteries mountain views and local cuisine
+Tawang,Arunachal Pradesh,East,mountains|spiritual|culture,cool,sightseeing|photography|trekking,12000,30000,5,8,4|5|6|9|10,2,27.59,91.86,Remote Himalayan monastery and high passes
+Imphal,Manipur,East,culture|nature|city,pleasant,sightseeing|food|photography|shopping,6000,16000,2,4,10|11|12|1|2|3,3,24.82,93.94,Loktak Lake and rich Manipuri arts
+Aizawl,Mizoram,East,nature|culture|city,pleasant,sightseeing|photography|food,7000,17000,2,4,10|11|12|1|2|3,2,23.73,92.72,Hilltop city and Mizo cultural experiences
+Agartala,Tripura,East,historical|culture|nature,warm,sightseeing|historical|photography,5000,14000,2,4,10|11|12|1|2|3,3,23.83,91.28,Palaces temples and bamboo craft heritage
+Hampi,Karnataka,South,historical|adventure|culture,warm,sightseeing|cycling|photography|historical,7000,19000,2,5,10|11|12|1|2|3,4,15.34,76.46,Vijayanagara ruins among dramatic boulder landscapes
+Coorg,Karnataka,South,nature|mountains|relaxation,pleasant,trekking|photography|food|camping,8000,22000,3,6,10|11|12|1|2|3,4,12.34,75.81,Coffee estates forests and Western Ghats trails
+Mysuru,Karnataka,South,historical|culture|city,warm,sightseeing|food|shopping|historical,6000,16000,2,4,10|11|12|1|2|3,5,12.30,76.64,Palaces gardens and celebrated Dasara traditions
+Bengaluru,Karnataka,South,city|food|nightlife,pleasant,food|shopping|nightlife|sightseeing,7000,20000,2,5,10|11|12|1|2|3,5,12.97,77.59,Cosmopolitan food tech and garden city
+Ooty,Tamil Nadu,South,mountains|nature|relaxation,pleasant,sightseeing|photography|trekking|shopping,7000,18000,3,6,3|4|5|9|10,5,11.41,76.69,Nilgiri hill station with gardens and toy train
+Kodaikanal,Tamil Nadu,South,mountains|nature|relaxation,pleasant,trekking|photography|boating|sightseeing,7000,18000,3,6,4|5|6|9|10,4,10.24,77.49,Lakes pine forests and misty viewpoints
+Chennai,Tamil Nadu,South,city|beaches|culture,warm,food|sightseeing|historical|water activities,6000,17000,2,5,11|12|1|2|3,5,13.08,80.27,Coastal city with temples arts and cuisine
+Mahabalipuram,Tamil Nadu,South,historical|beaches|culture,warm,sightseeing|historical|photography|water activities,5000,14000,1,3,11|12|1|2|3,4,12.62,80.19,Shore temples and Pallava stone carvings
+Madurai,Tamil Nadu,South,spiritual|historical|culture,warm,sightseeing|food|historical,5000,14000,2,4,11|12|1|2|3,5,9.93,78.12,Ancient temple city and Tamil culinary traditions
+Rameswaram,Tamil Nadu,South,spiritual|beaches|nature,warm,sightseeing|water activities|photography,6000,16000,2,4,11|12|1|2|3,4,9.29,79.31,Island pilgrimage and coastal landscapes
+Munnar,Kerala,South,mountains|nature|relaxation,pleasant,trekking|photography|sightseeing|wildlife,8000,22000,3,6,9|10|11|12|1|2|3,4,10.09,77.06,Tea slopes and wildlife-rich Western Ghats
+Alappuzha,Kerala,South,nature|relaxation|water,tropical,boating|photography|food|relaxation,8000,24000,2,5,10|11|12|1|2|3,4,9.50,76.33,Backwater canals houseboats and coastal villages
+Kochi,Kerala,South,city|historical|culture,tropical,food|sightseeing|shopping|historical,7000,19000,2,5,10|11|12|1|2|3,5,9.93,76.27,Harbor city with layered maritime heritage
+Wayanad,Kerala,South,nature|wildlife|mountains,pleasant,trekking|wildlife|photography|camping,7000,19000,3,6,10|11|12|1|2|3,3,11.69,76.13,Forests waterfalls and wildlife corridors
+Varkala,Kerala,South,beaches|relaxation,tropical,water activities|relaxation|photography|food,7000,20000,2,5,10|11|12|1|2|3,4,8.74,76.72,Clifftop beaches and laid-back coastal cafes
+Kovalam,Kerala,South,beaches|relaxation,tropical,water activities|relaxation|sightseeing,7000,20000,2,5,10|11|12|1|2|3,4,8.40,76.98,Lighthouse beaches and calm Arabian Sea coves
+Hyderabad,Telangana,South,city|historical|food,warm,sightseeing|food|shopping|historical,6000,17000,2,5,10|11|12|1|2|3,5,17.39,78.49,Fortresses pearls and celebrated Hyderabadi cuisine
+Visakhapatnam,Andhra Pradesh,South,beaches|nature|city,tropical,water activities|sightseeing|photography|food,6000,18000,2,5,10|11|12|1|2|3,4,17.69,83.22,Coastal city framed by hills and beaches
+Araku Valley,Andhra Pradesh,South,nature|mountains|culture,pleasant,trekking|photography|sightseeing|food,6000,16000,2,4,10|11|12|1|2|3,3,18.33,82.88,Tribal culture coffee farms and Eastern Ghats views
+Andaman Islands,Andaman and Nicobar Islands,South,beaches|adventure|nature,tropical,water activities|photography|wildlife|relaxation,18000,45000,5,9,11|12|1|2|3,4,11.74,92.74,Coral reefs island beaches and marine activities
+Lakshadweep,Lakshadweep,South,beaches|nature|relaxation,tropical,water activities|photography|relaxation,25000,60000,5,8,10|11|12|1|2|3,2,10.57,72.64,Remote coral atolls and clear lagoons

@@ -1,0 +1,29 @@
+{
+  "feature_count": 68,
+  "types": [
+    "mountains",
+    "beaches",
+    "nature",
+    "historical",
+    "adventure",
+    "spiritual",
+    "city",
+    "relaxation",
+    "wildlife",
+    "culture",
+    "food"
+  ],
+  "activities": [
+    "trekking",
+    "sightseeing",
+    "photography",
+    "food",
+    "water activities",
+    "camping",
+    "wildlife",
+    "shopping",
+    "historical",
+    "relaxation"
+  ],
+  "seed": 42
+}

@@ -1,0 +1,15 @@
+flowchart LR
+  U[Traveler] --> F[React + TypeScript questionnaire]
+  F -->|JSON preferences| A[FastAPI]
+  A --> E[Shared deterministic feature encoder]
+  D[(destinations.csv)] --> A
+  E --> M[Keras DNN artifact]
+  M --> R[Ranked suitability scores]
+  A --> X[Attribute-based explanations]
+  R --> F
+  X --> F
+  F --> L[Browser localStorage saved places]
+  T[Seeded synthetic training profiles] --> P[Training script]
+  D --> P
+  P --> M
+  P --> Q[Holdout MAE / RMSE / R²]
